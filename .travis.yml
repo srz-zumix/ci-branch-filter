@@ -3,6 +3,17 @@ sudo: false
 
 language: cpp
 
+branches:
+  except:
+    - gh-pages
+  only:
+    - master
+    - develop
+    - /feature.*/
+    - /fix.*/
+    - /travisci.*/
+    - /travis-ci.*/
+
 script:
   - echo OK
 

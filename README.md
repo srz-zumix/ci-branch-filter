@@ -23,6 +23,6 @@ CI branch filter exsamples.
 |[Semaphore CI](https://semaphoreci.com/docs/how-to-skip-building-for-some-commits-with-ci-branch-filter.html)|[![Build Status](https://semaphoreci.com/api/v1/srz_zumix/ci-branch-filter/branches/master/badge.svg)](https://semaphoreci.com/srz_zumix/ci-branch-filter)|||||
 |[Semaphore CI 2.0](https://docs.semaphoreci.com/article/146-skip-building-some-commits-with-ci-branch-filter)|[Build](https://srz-zumix.semaphoreci.com/projects/ci-branch-filter)|||||
 |[Shippable](http://docs.shippable.com/ci/skip-builds/)|[![Run Status](https://api.shippable.com/projects/5a8d7f96d0386507000fbc70/badge?branch=master)](https://app.shippable.com/github/srz-zumix/ci-branch-filter)|||||
-|[Travis CI](https://docs.travis-ci.com/user/customizing-the-build/#skipping-a-build)|[![Build Status](https://travis-ci.com/srz-zumix/ci-branch-filter.svg?branch=master)](https://travis-ci.com/srz-zumix/ci-branch-filter)|||| |
+|[Travis CI](https://docs.travis-ci.com/user/customizing-the-build/#building-specific-branches)|[![Build Status](https://travis-ci.com/srz-zumix/ci-branch-filter.svg?branch=master)](https://travis-ci.com/srz-zumix/ci-branch-filter)|||| |
 |[wercker](http://devcenter.wercker.com/docs/faq/how-can-i-skip-a-build#hs_cos_wrapper_name)|[![wercker status](https://app.wercker.com/status/95dc13c5815e10848c9c7bafbba37e62/s/master "wercker status")](https://app.wercker.com/project/byKey/95dc13c5815e10848c9c7bafbba37e62)||| | |
 
