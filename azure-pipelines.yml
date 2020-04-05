@@ -1,2 +1,16 @@
+trigger:
+  branches:
+    include:
+      - master
+      - feature/*
+      - azure-pipelines/*
+      - azurepipelines/*
+      - azp/*
+
+pr:
+  branches:
+    include:
+      - master
+
 steps:
   - script: echo hello world
