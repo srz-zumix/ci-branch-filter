@@ -1,6 +1,6 @@
-# ci-branch-filter
+# ci-trigger
 
-CI Trigger filter examples.
+CI Trigger Congigurations
 
 --------------------------------------------------
 
@@ -28,7 +28,7 @@ CI Trigger filter examples.
 
 --------------------------------------------------
 
-## CI Matrix
+## Branc Filter Matrix
 
 |CI|master|feature|||
 |:--|:--|:--|:--|:--|
@@ -43,9 +43,30 @@ CI Trigger filter examples.
 |[Drone Cloud](https://cloud.drone.io/)|[![Build Status](https://cloud.drone.io/api/badges/srz-zumix/ci-branch-filter/status.svg)](https://cloud.drone.io/srz-zumix/ci-branch-filter)|||||
 |[GitHub Actions](https://github.com/features/actions)|[![GitHub Actions Status](https://github.com/srz-zumix/iutest/workflows/GitHub%20Actions/badge.svg?branch=master)](https://github.com/srz-zumix/iutest/actions)|||||
 |[Scrutinizer](https://scrutinizer-ci.com/docs/guides/skipping_a_build_via_commit_message)|[![Build Status](https://scrutinizer-ci.com/g/srz-zumix/ci-branch-filter/badges/build.png?b=master)](https://scrutinizer-ci.com/g/srz-zumix/ci-branch-filter/build-status/master)|||||
-|[Semaphore CI](https://semaphoreci.com/docs/how-to-skip-building-for-some-commits-with-ci-branch-filter.html)|[![Build Status](https://semaphoreci.com/api/v1/srz_zumix/ci-branch-filter/branches/master/badge.svg)](https://semaphoreci.com/srz_zumix/ci-branch-filter)|||||
 |[Semaphore CI 2.0](https://docs.semaphoreci.com/article/146-skip-building-some-commits-with-ci-branch-filter)|[Build](https://srz-zumix.semaphoreci.com/projects/ci-branch-filter)|||||
 |[Shippable](http://docs.shippable.com/ci/skip-builds/)|[![Run Status](https://api.shippable.com/projects/5a8d7f96d0386507000fbc70/badge?branch=master)](https://app.shippable.com/github/srz-zumix/ci-branch-filter)|||||
 |[Travis CI](https://docs.travis-ci.com/user/customizing-the-build/#building-specific-branches)|[![Build Status](https://travis-ci.com/srz-zumix/ci-branch-filter.svg?branch=master)](https://travis-ci.com/srz-zumix/ci-branch-filter)|||| |
 |[wercker](http://devcenter.wercker.com/docs/faq/how-can-i-skip-a-build#hs_cos_wrapper_name)|[![wercker status](https://app.wercker.com/status/95dc13c5815e10848c9c7bafbba37e62/s/master "wercker status")](https://app.wercker.com/project/byKey/95dc13c5815e10848c9c7bafbba37e62)||| | |
 
+
+## PullRequest Comment Command
+
+|CI|Command|Note|
+|:--|:--|:--|
+|[AppVeyor](https://status.appveyor.com/#)||
+|[Azure Pipelines](https://docs.microsoft.com/en-us/azure/devops/pipelines/repos/github?view=azure-devops&tabs=yaml#comment-triggers)|/AzurePipelines run \[pipeline-name\]|For brevity, you can comment using /azp instead of /AzurePipelines.|
+|[Bitrise](https://www.bitrise.io)||
+|[Buddy](https://buddy.works)||
+|[CircleCI](https://status.circleci.com/)||
+|[Cirrus CI](https://cirrus-ci.org/)||
+|[Codefresh](https://codefresh.io/)||
+|[Codeship](https://codeship.com/)||
+|[Drone Cloud](https://cloud.drone.io/)||
+|[GitHub Actions](https://www.githubstatus.com/)||
+|[Scrutinizer](https://scrutinizer-ci.com)||
+|[Semaphore CI 2.0](https://status.semaphoreci.com/)||
+|[Shippable](http://shippable.com)||
+|[Travis CI](https://travis-ci.com/)||
+|[wercker](http://status.wercker.com/)||
+
+## Webhook
