@@ -6,14 +6,16 @@ CI Trigger Congigurations
 
 ## Filters
 
+commit comment filter: [CI Skip](https://github.com/srz-zumix/ci-skip)
+
 |CI|Branch|Paths|Config|
 |:--|:--|:--|:--|
-|[AppVeyor](https://www.appveyor.com)||||
-|[Azure Pipelines](https://azure.microsoft.com/ja-jp/services/devops/pipelines/)|:ballot_box_with_check:||
+|[AppVeyor](https://www.appveyor.com)|[:ballot_box_with_check:](https://www.appveyor.com/docs/branches/)|[:ballot_box_with_check:](https://www.appveyor.com/docs/how-to/filtering-commits/)|YAML|
+|[Azure Pipelines](https://azure.microsoft.com/ja-jp/services/devops/pipelines/)|[:ballot_box_with_check:](https://docs.microsoft.com/ja-jp/azure/devops/pipelines/repos/github?view=azure-devops&tabs=yaml#branches)|-|YAML|
 |[Bitrise](https://www.bitrise.io)|:ballot_box_with_check:|[:ballot_box_with_check:](https://devcenter.bitrise.io/builds/selective_builds/)|GUI|
 |[Buddy](https://buddy.works)|||
 |[CircleCI](https://circleci.com/pricing/)|||
-|[Cirrus CI](https://cirrus-ci.org/)|[:ballot_box_with_check:](https://cirrus-ci.org/guide/writing-tasks/#supported-functions)|[:ballot_box_with_check:](https://cirrus-ci.org/guide/writing-tasks/#supported-functions)|
+|[Cirrus CI](https://cirrus-ci.org/)|[:ballot_box_with_check:](https://cirrus-ci.org/guide/writing-tasks/#supported-functions)|[:ballot_box_with_check:](https://cirrus-ci.org/guide/writing-tasks/#supported-functions)|YAML|
 |[Codefresh](https://codefresh.io/)|||
 |[Codeship](https://codeship.com/)||
 |[Drone](https://cloud.drone.io/)||
@@ -21,8 +23,8 @@ CI Trigger Congigurations
 |[Scrutinizer](https://scrutinizer-ci.com)||
 |[Semaphore 2.0](https://semaphoreci.com/product)|||
 |[Semaphore 2.0](https://semaphoreci.com/product)|||
-|[Shippable](http://shippable.com)||
-|[Travis CI](https://travis-ci.com/)|
+|[Shippable](http://shippable.com)|[:ballot_box_with_check:](http://docs.shippable.com/platform/workflow/config/)|-|YAML|
+|[Travis CI](https://travis-ci.com/)|[:ballot_box_with_check:](https://docs.travis-ci.com/user/customizing-the-build#building-specific-branches)|[workaround](https://travis-ci.community/t/how-to-skip-jobs-based-on-the-files-changed-in-a-subdirectory/2979/11)|YAML|
 |[wercker](http://www.wercker.com/)||
 
 
