@@ -17,7 +17,8 @@ commit comment filter: [CI Skip](https://github.com/srz-zumix/ci-skip)
 |[CircleCI](https://circleci.com/docs/ja/2.0/configuration-reference/#filters)|:ballot_box_with_check:|-|YAML|
 |[Cirrus CI](https://cirrus-ci.org/guide/writing-tasks/#supported-functions)|:ballot_box_with_check:|[:ballot_box_with_check:](https://cirrus-ci.org/guide/writing-tasks/#supported-functions)|YAML|
 |[Codefresh](https://codefresh.io/docs/docs/configure-ci-cd-pipeline/triggers/git-triggers/)|[:ballot_box_with_check:](https://codefresh.io/docs/docs/configure-ci-cd-pipeline/triggers/git-triggers/)|:ballot_box_with_check:|Server|
-|[Codeship](https://codeship.com/)||
+|[CodeShip Basic](https://documentation.codeship.com/general/projects/build_trigger/)|:ballot_box_with_check:|-|Server,YAML|
+|[CodeShip Pro](https://documentation.codeship.com/pro/builds-and-configuration/steps/#limiting-steps-to-specific-branches-or-tags)|:ballot_box_with_check:|-|Server,YAML|
 |[Drone](https://docs.drone.io/pipeline/triggers/)|:ballot_box_with_check:|-|YAML|
 |[GitHub Actions](https://help.github.com/en/actions/reference/workflow-syntax-for-github-actions#onpushpull_requestbranchestags)|:ballot_box_with_check:|[:ballot_box_with_check:](https://help.github.com/en/actions/reference/workflow-syntax-for-github-actions#onpushpull_requestpaths)|YAML|
 |[Scrutinizer](https://scrutinizer-ci.com)||
