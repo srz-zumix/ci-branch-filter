@@ -3,4 +3,4 @@ tasks:
     image: gcc
     commands:
       - echo test
-    when: branch == 'master' || branch == 'razorops/.*'
+    when: branch == 'master' || branch =~ 'razorops/.*'
