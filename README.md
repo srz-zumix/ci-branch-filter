@@ -11,7 +11,7 @@ commit comment filter: [CI Skip](https://github.com/srz-zumix/ci-skip)
 |CI|Branch|Paths|Config|
 |:--|:--|:--|:--|
 |[AppVeyor](https://www.appveyor.com/docs/branches/)|:ballot_box_with_check:|[:ballot_box_with_check:](https://www.appveyor.com/docs/how-to/filtering-commits/)|YAML|
-|[Azure Pipelines](https://docs.microsoft.com/ja-jp/azure/devops/pipelines/repos/github?view=azure-devops&tabs=yaml#branches)|:ballot_box_with_check:|-|YAML|
+|[Azure Pipelines](https://docs.microsoft.com/ja-jp/azure/devops/pipelines/repos/github?view=azure-devops&tabs=yaml#branches)|:ballot_box_with_check:|-|[GUI](https://docs.microsoft.com/en-us/azure/devops/pipelines/troubleshooting/troubleshooting?view=azure-devops#overridden-yaml-trigger-setting),YAML|
 |[Bitrise](https://www.bitrise.io)|:ballot_box_with_check:|[:ballot_box_with_check:](https://devcenter.bitrise.io/builds/selective_builds/)|GUI|
 |[Buddy](https://buddy.works)|||
 |[CircleCI](https://circleci.com/docs/ja/2.0/configuration-reference/#filters)|:ballot_box_with_check:|-|YAML|
@@ -30,7 +30,7 @@ commit comment filter: [CI Skip](https://github.com/srz-zumix/ci-skip)
 
 --------------------------------------------------
 
-## Branc Filter Matrix
+## Branch Filter Matrix
 
 |CI|master|feature|||
 |:--|:--|:--|:--|:--|
