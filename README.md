@@ -53,6 +53,8 @@ commit comment filter: [CI Skip](https://github.com/srz-zumix/ci-skip)
 
 ## PullRequest Comment Command
 
+[Comment assistance tampermonkey user script](https://github.com/srz-zumix/TampermonkeyUserScripts)
+
 |CI|Command|Note|
 |:--|:--|:--|
 |[AppVeyor](https://status.appveyor.com/#)||
