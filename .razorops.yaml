@@ -1,6 +1,6 @@
 tasks:
   test:
-    image: gcc
+    image: centos:5
     commands:
       - echo test
     # Note. RazorOps branch is not include directory
