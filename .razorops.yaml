@@ -3,4 +3,4 @@ tasks:
     image: gcc
     commands:
       - echo test
-    when: branch in ('master', 'develop') || branch =~ /razorops/
+    when: branch in ('master', 'develop')
