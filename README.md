@@ -21,7 +21,7 @@ commit comment filter: [CI Skip](https://github.com/srz-zumix/ci-skip)
 |[CodeShip Pro](https://documentation.codeship.com/pro/builds-and-configuration/steps/#limiting-steps-to-specific-branches-or-tags)|:ballot_box_with_check:|-|Server,YAML|
 |[Drone](https://docs.drone.io/pipeline/triggers/)|:ballot_box_with_check:|-|YAML|
 |[GitHub Actions](https://help.github.com/en/actions/reference/workflow-syntax-for-github-actions#onpushpull_requestbranchestags)|:ballot_box_with_check:|[:ballot_box_with_check:](https://help.github.com/en/actions/reference/workflow-syntax-for-github-actions#onpushpull_requestpaths)|YAML|
-|[RezorOps](https://docs.razorops.com/configuration/conditional.html)|:ballot_box_with_check:|-|YAML|
+|[RezorOps](https://docs.razorops.com/configuration/conditional.html)|:ballot_box_with_check:|:ballot_box_with_check:|GUI,YAML|
 |[Scrutinizer](https://scrutinizer-ci.com)||
 |[Semaphore 2.0](https://docs.semaphoreci.com/reference/conditions-reference/)|:ballot_box_with_check:|[beta](https://docs.semaphoreci.com/reference/conditions-reference/#change_in)|YAML|
 |[Shippable](http://docs.shippable.com/platform/workflow/config/)|:ballot_box_with_check:|-|YAML|
