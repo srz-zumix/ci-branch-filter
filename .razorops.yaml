@@ -4,4 +4,4 @@ tasks:
     commands:
       - echo test
     when: >
-      branch =~ /master/
+      branch =~ 'master'
