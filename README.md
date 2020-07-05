@@ -26,7 +26,7 @@ commit comment filter: [CI Skip](https://github.com/srz-zumix/ci-skip)
 |[Semaphore 2.0](https://docs.semaphoreci.com/reference/conditions-reference/)|:ballot_box_with_check:|[beta](https://docs.semaphoreci.com/reference/conditions-reference/#change_in)|YAML|
 |[Shippable](http://docs.shippable.com/platform/workflow/config/)|:ballot_box_with_check:|-|YAML|
 |[Travis CI](https://docs.travis-ci.com/user/customizing-the-build#building-specific-branches)|:ballot_box_with_check:|[workaround](https://travis-ci.community/t/how-to-skip-jobs-based-on-the-files-changed-in-a-subdirectory/2979/11)|YAML|
-|[wercker](http://www.wercker.com/)||
+|[wercker](https://devcenter.wercker.com/development/workflows/creating-a-workflow/#tag-filtering)|:ballot_box_with_check:||GUI|
 
 
 --------------------------------------------------
