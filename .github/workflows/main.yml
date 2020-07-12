@@ -1,6 +1,19 @@
 name: CI
 
-on: [push]
+on:
+  pull_request:
+    branches:
+      - master
+      - develop
+      - github/*
+      - githubactions/*
+      - ghactions/*
+    paths-ignore:
+      - *.yml
+      - *.yaml
+      - .circleci/*
+      - .semaphore/*
+
 
 # Hope can control here
 # on:

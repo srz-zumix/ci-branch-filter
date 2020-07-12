@@ -31,9 +31,11 @@ commit comment filter: [CI Skip](https://github.com/srz-zumix/ci-skip)
 
 --------------------------------------------------
 
-## Branch Filter Matrix
+## PR Branch Filter Matrix
 
-|CI|master|feature|||
+feature to XXX
+
+|CI|master|appveyor/*|||
 |:--|:--|:--|:--|:--|
 |[AppVeyor](https://www.appveyor.com/docs/how-to/filtering-commits/#skip-commits)|[![Build status](https://ci.appveyor.com/api/projects/status/yagkbieyahgxx7cd?svg=true)](https://ci.appveyor.com/project/srz-zumix/ci-branch-filter)||||
 |[Azure Pipelines](https://docs.microsoft.com/en-us/azure/devops/pipelines/?view=vsts)|[![Build Status](https://dev.azure.com/srz-zumix/ci-specs/_apis/build/status/ci-trigger?branchName=master)](https://dev.azure.com/srz-zumix/ci-specs/_build/latest?definitionId=11&branchName=master)|||||
