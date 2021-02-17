@@ -21,7 +21,7 @@ commit comment filter: [CI Skip](https://github.com/srz-zumix/ci-skip)
 |[CodeShip Pro](https://documentation.codeship.com/pro/builds-and-configuration/steps/#limiting-steps-to-specific-branches-or-tags)|:ballot_box_with_check:|-|Server,YAML|
 |[Drone](https://docs.drone.io/pipeline/triggers/)|:ballot_box_with_check:|-|YAML|
 |[GitHub Actions](https://help.github.com/en/actions/reference/workflow-syntax-for-github-actions#onpushpull_requestbranchestags)|:ballot_box_with_check:|[:ballot_box_with_check:](https://help.github.com/en/actions/reference/workflow-syntax-for-github-actions#onpushpull_requestpaths)|YAML|
-|[RezorOps](https://docs.razorops.com/configuration/conditional.html)|:ballot_box_with_check:|:ballot_box_with_check:|GUI,YAML|
+|[RezorOps](https://docs.razorops.com/config/spec/#trigger)|:ballot_box_with_check:|-|GUI,YAML|
 |[Scrutinizer](https://scrutinizer-ci.com)||
 |[Semaphore 2.0](https://docs.semaphoreci.com/reference/conditions-reference/)|:ballot_box_with_check:|[beta](https://docs.semaphoreci.com/reference/conditions-reference/#change_in)|YAML|
 |[Shippable](http://docs.shippable.com/platform/workflow/config/)|:ballot_box_with_check:|-|YAML|
@@ -53,7 +53,6 @@ feature to XXX
 |[Shippable](http://docs.shippable.com/ci/skip-builds/)|[![Run Status](https://api.shippable.com/projects/5a8d7f96d0386507000fbc70/badge?branch=master)](https://app.shippable.com/github/srz-zumix/ci-branch-filter)|||||
 |[Travis CI](https://docs.travis-ci.com/user/customizing-the-build/#building-specific-branches)|[![Build Status](https://travis-ci.com/srz-zumix/ci-branch-filter.svg?branch=master)](https://travis-ci.com/srz-zumix/ci-branch-filter)|||| |
 |[wercker](http://devcenter.wercker.com/docs/faq/how-can-i-skip-a-build#hs_cos_wrapper_name)|[![wercker status](https://app.wercker.com/status/95dc13c5815e10848c9c7bafbba37e62/s/master "wercker status")](https://app.wercker.com/project/byKey/95dc13c5815e10848c9c7bafbba37e62)||| | |
-
 
 ## PullRequest Comment Command
 
