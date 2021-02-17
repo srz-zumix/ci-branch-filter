@@ -1,10 +1,13 @@
+version: v2
+
 tasks:
-  test:
-    image: centos
-    commands:
-      - echo test
+  spec:
+    containers:
+      - image: iutest/razorops_test
+    steps:
+      - checkout
+      - commands:
+        - echo test
     # Note. RazorOps branch is not include directory
     # e.g. feature/test -> test
-    when: >
-      branch in ('master', 'develop') ||
-      branch =~ 'razorops.*'
+    when: (branch in ('master', 'develop') || branch =~ 'razorops.*') && event == 'pull_request'
