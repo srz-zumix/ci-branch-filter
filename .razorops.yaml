@@ -3,10 +3,11 @@ version: v2
 tasks:
   spec:
     containers:
-      - image: iutest/razorops_test
+      - image: centos
     steps:
       - checkout
       - commands:
+        - env
         - echo test
     # Note. RazorOps branch is not include directory
     # e.g. feature/test -> test
