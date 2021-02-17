@@ -21,7 +21,7 @@ commit comment filter: [CI Skip](https://github.com/srz-zumix/ci-skip)
 |[CodeShip Pro](https://documentation.codeship.com/pro/builds-and-configuration/steps/#limiting-steps-to-specific-branches-or-tags)|:ballot_box_with_check:|-|Server,YAML|
 |[Drone](https://docs.drone.io/pipeline/triggers/)|:ballot_box_with_check:|-|YAML|
 |[GitHub Actions](https://help.github.com/en/actions/reference/workflow-syntax-for-github-actions#onpushpull_requestbranchestags)|:ballot_box_with_check:|[:ballot_box_with_check:](https://help.github.com/en/actions/reference/workflow-syntax-for-github-actions#onpushpull_requestpaths)|YAML|
-|[RezorOps](https://docs.razorops.com/configuration/conditional.html)|:ballot_box_with_check:|:ballot_box_with_check:|GUI,YAML|
+|[RezorOps](https://docs.razorops.com/config/spec/#trigger)|:ballot_box_with_check:|-|GUI,YAML|
 |[Scrutinizer](https://scrutinizer-ci.com)||
 |[Semaphore 2.0](https://docs.semaphoreci.com/reference/conditions-reference/)|:ballot_box_with_check:|[beta](https://docs.semaphoreci.com/reference/conditions-reference/#change_in)|YAML|
 |[Shippable](http://docs.shippable.com/platform/workflow/config/)|:ballot_box_with_check:|-|YAML|
@@ -47,13 +47,12 @@ feature to XXX
 [Codeship](https://documentation.codeship.com/general/projects/skipping-builds/)|[ ![Codeship Status for srz-zumix/ci-branch-filter](https://app.codeship.com/projects/00a08490-f92d-0135-3ab5-029b8e2f450f/status?branch=master)](https://app.codeship.com/projects/278452)||
 |[Drone Cloud](https://cloud.drone.io/)|[![Build Status](https://cloud.drone.io/api/badges/srz-zumix/ci-branch-filter/status.svg)](https://cloud.drone.io/srz-zumix/ci-branch-filter)||
 |[GitHub Actions](https://github.com/features/actions)|[![GitHub Actions Status](https://github.com/srz-zumix/iutest/workflows/GitHub%20Actions/badge.svg?branch=master)](https://github.com/srz-zumix/iutest/actions)||
-|RazorOps||
+|RazorOps|[![Build Status](https://api.razorops.com/apps/purple-frog-6791/badge.svg?branch=master)](https://dashboard.razorops.com/apps/purple-frog-6791/workflows)|[![Build Status](https://api.razorops.com/apps/purple-frog-6791/badge.svg?branch=razorops%2Ffeature)](https://dashboard.razorops.com/apps/purple-frog-6791/workflows)|
 |[Scrutinizer](https://scrutinizer-ci.com/docs/guides/skipping_a_build_via_commit_message)|[![Build Status](https://scrutinizer-ci.com/g/srz-zumix/ci-branch-filter/badges/build.png?b=master)](https://scrutinizer-ci.com/g/srz-zumix/ci-branch-filter/build-status/master)||
 |[Semaphore CI 2.0](https://docs.semaphoreci.com/article/146-skip-building-some-commits-with-ci-branch-filter)|[Build](https://srz-zumix.semaphoreci.com/projects/ci-branch-filter)||
 |[Shippable](http://docs.shippable.com/ci/skip-builds/)|[![Run Status](https://api.shippable.com/projects/5a8d7f96d0386507000fbc70/badge?branch=master)](https://app.shippable.com/github/srz-zumix/ci-branch-filter)||
 |[Travis CI](https://docs.travis-ci.com/user/customizing-the-build/#building-specific-branches)|[![Build Status](https://travis-ci.com/srz-zumix/ci-branch-filter.svg?branch=master)](https://travis-ci.com/srz-zumix/ci-branch-filter)||
 |[wercker](http://devcenter.wercker.com/docs/faq/how-can-i-skip-a-build#hs_cos_wrapper_name)|[![wercker status](https://app.wercker.com/status/95dc13c5815e10848c9c7bafbba37e62/s/master "wercker status")](https://app.wercker.com/project/byKey/95dc13c5815e10848c9c7bafbba37e62)||
-
 
 ## PullRequest Comment Command
 
