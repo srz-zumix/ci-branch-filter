@@ -8,26 +8,25 @@ CI Trigger Congigurations
 
 commit comment filter: [CI Skip](https://github.com/srz-zumix/ci-skip)
 
-|CI|Branch|Paths|Config|Note|
-|:--|:--|:--|:--|:--|
-|[AppVeyor](https://www.appveyor.com/docs/branches/)|:ballot_box_with_check:|[:ballot_box_with_check:](https://www.appveyor.com/docs/how-to/filtering-commits/)|YAML|
-|[Azure Pipelines](https://docs.microsoft.com/ja-jp/azure/devops/pipelines/repos/github?view=azure-devops&tabs=yaml#branches)|:ballot_box_with_check:|-|[GUI](https://docs.microsoft.com/en-us/azure/devops/pipelines/troubleshooting/troubleshooting?view=azure-devops#overridden-yaml-trigger-setting),YAML|
-|[Bitrise](https://www.bitrise.io)|:ballot_box_with_check:|[:ballot_box_with_check:](https://devcenter.bitrise.io/builds/selective_builds/)|GUI|
-|[Buddy](https://buddy.works)|||
-|[CircleCI](https://circleci.com/docs/ja/2.0/configuration-reference/#filters)|:ballot_box_with_check:|-|YAML|
-|[Cirrus CI](https://cirrus-ci.org/guide/writing-tasks/#supported-functions)|:ballot_box_with_check:|[:ballot_box_with_check:](https://cirrus-ci.org/guide/writing-tasks/#supported-functions)|YAML|
-|[Codefresh](https://codefresh.io/docs/docs/configure-ci-cd-pipeline/triggers/git-triggers/)|[:ballot_box_with_check:](https://codefresh.io/docs/docs/configure-ci-cd-pipeline/triggers/git-triggers/)|:ballot_box_with_check:|Server|
-|[CodeShip Basic](https://documentation.codeship.com/general/projects/build_trigger/)|:ballot_box_with_check:|-|Server,YAML|
-|[CodeShip Pro](https://documentation.codeship.com/pro/builds-and-configuration/steps/#limiting-steps-to-specific-branches-or-tags)|:ballot_box_with_check:|-|Server,YAML|
-|[Drone](https://docs.drone.io/pipeline/triggers/)|:ballot_box_with_check:|-|YAML|
-|[GitHub Actions](https://help.github.com/en/actions/reference/workflow-syntax-for-github-actions#onpushpull_requestbranchestags)|:ballot_box_with_check:|[:ballot_box_with_check:](https://help.github.com/en/actions/reference/workflow-syntax-for-github-actions#onpushpull_requestpaths)|YAML|
-|[RezorOps](https://docs.razorops.com/config/spec/#trigger)|:ballot_box_with_check:|:ballot_box_with_check:|GUI,YAML|path filter only GUI?|
+|CI|Branch|Branch(PR)|Paths|Config|Note|
+|:--|:--|:--|:--|:--|:--|
+|[AppVeyor](https://www.appveyor.com/docs/branches/)|:ballot_box_with_check:||[:ballot_box_with_check:](https://www.appveyor.com/docs/how-to/filtering-commits/)|YAML|
+|[Azure Pipelines](https://docs.microsoft.com/ja-jp/azure/devops/pipelines/repos/github?view=azure-devops&tabs=yaml#branches)|:ballot_box_with_check:||-|[GUI](https://docs.microsoft.com/en-us/azure/devops/pipelines/troubleshooting/troubleshooting?view=azure-devops#overridden-yaml-trigger-setting),YAML|
+|[Bitrise](https://www.bitrise.io)|:ballot_box_with_check:||[:ballot_box_with_check:](https://devcenter.bitrise.io/builds/selective_builds/)|GUI|
+|[Buddy](https://buddy.works)||||
+|[CircleCI](https://circleci.com/docs/ja/2.0/configuration-reference/#filters)|:ballot_box_with_check:||-|YAML|
+|[Cirrus CI](https://cirrus-ci.org/guide/writing-tasks/#supported-functions)|:ballot_box_with_check:||[:ballot_box_with_check:](https://cirrus-ci.org/guide/writing-tasks/#supported-functions)|YAML|
+|[Codefresh](https://codefresh.io/docs/docs/configure-ci-cd-pipeline/triggers/git-triggers/)|[:ballot_box_with_check:](https://codefresh.io/docs/docs/configure-ci-cd-pipeline/triggers/git-triggers/)||:ballot_box_with_check:|GUI|
+|[CodeShip Basic](https://documentation.codeship.com/general/projects/build_trigger/)|:ballot_box_with_check:||-|GUI,YAML|
+|[CodeShip Pro](https://documentation.codeship.com/pro/builds-and-configuration/steps/#limiting-steps-to-specific-branches-or-tags)|:ballot_box_with_check:||-|GUI,YAML|
+|[Drone](https://docs.drone.io/pipeline/triggers/)|:ballot_box_with_check:||-|YAML|
+|[GitHub Actions](https://help.github.com/en/actions/reference/workflow-syntax-for-github-actions#onpushpull_requestbranchestags)|:ballot_box_with_check:||[:ballot_box_with_check:](https://help.github.com/en/actions/reference/workflow-syntax-for-github-actions#onpushpull_requestpaths)|YAML|
+|[RezorOps](https://docs.razorops.com/config/spec/#trigger)|:ballot_box_with_check:||:ballot_box_with_check:|GUI,YAML|path filter is only GUI?|
 |[Scrutinizer](https://scrutinizer-ci.com)||
-|[Semaphore 2.0](https://docs.semaphoreci.com/reference/conditions-reference/)|:ballot_box_with_check:|[beta](https://docs.semaphoreci.com/reference/conditions-reference/#change_in)|YAML|
-|[Shippable](http://docs.shippable.com/platform/workflow/config/)|:ballot_box_with_check:|-|YAML|
-|[Travis CI](https://docs.travis-ci.com/user/customizing-the-build#building-specific-branches)|:ballot_box_with_check:|[workaround](https://travis-ci.community/t/how-to-skip-jobs-based-on-the-files-changed-in-a-subdirectory/2979/11)|YAML|
-|[wercker](https://devcenter.wercker.com/development/workflows/creating-a-workflow/#tag-filtering)|:ballot_box_with_check:||GUI|
-
+|[Semaphore 2.0](https://docs.semaphoreci.com/reference/conditions-reference/)|:ballot_box_with_check:||[beta](https://docs.semaphoreci.com/reference/conditions-reference/#change_in)|YAML|
+|[Shippable](http://docs.shippable.com/platform/workflow/config/)|:ballot_box_with_check:||-|YAML|
+|[Travis CI](https://docs.travis-ci.com/user/customizing-the-build#building-specific-branches)|:ballot_box_with_check:||[workaround](https://travis-ci.community/t/how-to-skip-jobs-based-on-the-files-changed-in-a-subdirectory/2979/11)|YAML|
+|[wercker](https://devcenter.wercker.com/development/workflows/creating-a-workflow/#tag-filtering)|:ballot_box_with_check:|||GUI|
 
 --------------------------------------------------
 
