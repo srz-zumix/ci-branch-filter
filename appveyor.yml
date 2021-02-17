@@ -6,7 +6,7 @@ branches:
     - /appveyor\/.*/
 
 build_script:
-- cmd: echo OK
+  - cmd: echo OK
 test: off
 skip_commits:
   message: /\[no appveyor\]/
