@@ -2,15 +2,14 @@ trigger:
   branches:
     include:
       - master
-      - feature/*
-      - azure-pipelines/*
-      - azurepipelines/*
-      - azp/*
 
 pr:
   branches:
     include:
       - master
+      - azure-pipelines/*
+      - azurepipelines/*
+      - azp/*
 
 steps:
   - script: echo hello world
