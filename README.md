@@ -22,7 +22,7 @@ Skip push/pr: skip duplicate trigger push and PR.
 
 |CI|Branch|Branch(PR)|Skip push/pr|Config|
 |:--|:--|:--|:--|:--|
-|[AppVeyor](https://www.appveyor.com/docs/branches/)|:ballot_box_with_check:|BASE|[:ballot_box_with_check:](https://www.appveyor.com/docs/how-to/filtering-commits/)|YAML|
+|[AppVeyor](https://www.appveyor.com/docs/branches/)|-|BASE|[:ballot_box_with_check:](https://www.appveyor.com/docs/how-to/filtering-commits/)|YAML|
 |[Azure Pipelines](https://docs.microsoft.com/ja-jp/azure/devops/pipelines/repos/github?view=azure-devops&tabs=yaml#branches)|:ballot_box_with_check:|||[GUI](https://docs.microsoft.com/en-us/azure/devops/pipelines/troubleshooting/troubleshooting?view=azure-devops#overridden-yaml-trigger-setting),YAML|
 |[Bitrise](https://www.bitrise.io)|:ballot_box_with_check:|||GUI|
 |[Buddy](https://buddy.works)||||
