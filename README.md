@@ -102,7 +102,7 @@ BASE: XXX
 |[Scrutinizer](https://scrutinizer-ci.com)||
 |[Semaphore](https://docs.semaphoreci.com/reference/conditions-reference/#change_in)|:ballot_box_with_check:|GUI,YAML|
 |[Shippable][]|-|-|
-|[Travis CI](https://travis-ci.community/t/how-to-skip-jobs-based-on-the-files-changed-in-a-subdirectory/2979/11)|workaround|AML|
+|[Travis CI](https://travis-ci.community/t/how-to-skip-jobs-based-on-the-files-changed-in-a-subdirectory/2979/11)|workaround|YAML|
 |[wercker][]|||
 
 ## PullRequest Comment Command
