@@ -100,7 +100,7 @@ BASE: XXX
 |[GitHub Actions](https://help.github.com/en/actions/reference/workflow-syntax-for-github-actions#onpushpull_requestpaths)|:ballot_box_with_check:|YAML|
 |[RezorOps](https://docs.razorops.com/config/spec/#trigger)|:ballot_box_with_check:|GUI|
 |[Scrutinizer](https://scrutinizer-ci.com)||
-|[Semaphore](https://docs.semaphoreci.com/reference/conditions-reference/#change_in)|beta|YAML|
+|[Semaphore](https://docs.semaphoreci.com/reference/conditions-reference/#change_in)|:ballot_box_with_check:|GUI,YAML|
 |[Shippable][]|-|-|
 |[Travis CI](https://travis-ci.community/t/how-to-skip-jobs-based-on-the-files-changed-in-a-subdirectory/2979/11)|workaround|AML|
 |[wercker][]|||
