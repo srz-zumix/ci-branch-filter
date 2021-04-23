@@ -1,4 +1,12 @@
 version: 2
+parameters:
+  build-docs:
+    type: boolean
+    default: false
+  build-pipeline:
+    type: boolean
+    default: false
+
 jobs:
   build:
     docker:
@@ -7,7 +15,29 @@ jobs:
       - checkout
       - run:
           name: Greeting
-          command: echo Hello, world.
-      - run:
-          name: Print the Current Time
-          command: date
+          command: |
+            echo  Hello, world.
+            echo << pipeline.parameters.build-docs >>
+            echo << pipeline.parameters.build-pipeline >>
+            <<# parameters.build-pipeline >> echo PIPELINE <</ parameters.all >>
+            <<# parameters.build-docs >> echo README <</ parameters.all >>
+      - when:
+        condition:
+          when: << pipeline.parameters.build-docs >>
+        steps:
+          - run: echo build-docs
+      - when:
+        condition:
+          when: << pipeline.parameters.build-pipeline >>
+        steps:
+          - run: echo build-pipeline
+
+workflows:
+  build-docs:
+    when: << pipeline.parameters.build-docs >>
+    jobs:
+      - build
+  build-pipeline:
+    when: << pipeline.parameters.build-pipeline >>
+    jobs:
+      - build

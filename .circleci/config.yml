@@ -12,5 +12,5 @@ workflows:
           base-revision: master
           config-path: .circleci/path-filtered-config.yml
           mapping: |
-            .circleci/.* build-code true
+            .circleci/.* build-pipeline true
             README.md build-docs true
