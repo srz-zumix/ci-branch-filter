@@ -16,9 +16,9 @@ jobs:
       - run:
           name: Greeting
           command: |
-            echo  Hello, world 2.
-            echo "<< pipeline.parameters.build-docs >>"
-            echo "<< pipeline.parameters.build-pipeline >>"
+            echo  Hello, world 1.
+            echo "build-docs is << pipeline.parameters.build-docs >>"
+            echo "build-pipeline is << pipeline.parameters.build-pipeline >>"
             <<# parameters.build-pipeline >> echo PIPELINE <</ parameters.all >>
             <<# parameters.build-docs >> echo README <</ parameters.all >>
       - when:

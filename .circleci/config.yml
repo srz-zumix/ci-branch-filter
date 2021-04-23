@@ -10,7 +10,7 @@ workflows:
     jobs:
       - path-filtering/filter:
           base-revision: master
-          config-path: .circleci/path-filtered-config.yml
+          config-path: .circleci/path-filtered-config1.yml
           mapping: |
             .circleci/.* build-pipeline true
             README.md build-docs true
