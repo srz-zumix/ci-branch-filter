@@ -6,6 +6,9 @@ parameters:
   build-pipeline:
     type: boolean
     default: false
+  build-other:
+    type: boolean
+    default: false
 
 jobs:
   build:
@@ -37,5 +40,9 @@ workflows:
       - build
   build-pipeline:
     when: << pipeline.parameters.build-pipeline >>
+    jobs:
+      - build
+  build-other:
+    when: << pipeline.parameters.build-other >>
     jobs:
       - build
