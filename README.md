@@ -92,7 +92,7 @@ BASE: XXX
 |[Azure Pipelines](https://docs.microsoft.com/ja-jp/azure/devops/pipelines/repos/github?view=azure-devops&tabs=yaml#paths)|:ballot_box_with_check:|YAML|
 |[Bitrise](https://devcenter.bitrise.io/builds/selective_builds/)|:ballot_box_with_check:|GUI|
 |[Buddy][]||||
-|[CircleCI][]|-|-|
+|[CircleCI](https://discuss.circleci.com/t/setup-workflows-open-preview/39516)|OpenPreview|YAML|
 |[Cirrus CI](https://cirrus-ci.org/guide/writing-tasks/#supported-functions)|:ballot_box_with_check:|YAML|
 |[Codefresh](https://codefresh.io/docs/docs/configure-ci-cd-pipeline/triggers/git-triggers/)|:ballot_box_with_check:|GUI|
 |[CodeShip][]|-|-|

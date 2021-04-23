@@ -1,4 +1,5 @@
 version: '2.1'
+# Enable the Setup Workflows setting to true (it is under “Advanced” in the project settings)
 setup: true
 
 orbs:
