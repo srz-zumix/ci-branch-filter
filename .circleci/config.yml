@@ -1,13 +1,12 @@
-version: 2
-jobs:
-  build:
-    docker:
-      - image: circleci/buildpack-deps:cosmic-browsers
-    steps:
-      - checkout
-      - run:
-          name: Greeting
-          command: echo Hello, world.
-      - run:
-          name: Print the Current Time
-          command: date
+version: '2.1'
+orbs:
+  path-filtering: circleci/path-filtering@0.0.1
+workflows:
+  generate-config:
+    jobs:
+      - path-filtering/filter:
+          base-revision: master
+          config-path: .circleci/path-filtered-config.yml
+          mapping: |
+            .circleci/.* build-code true
+            README.md build-docs true
