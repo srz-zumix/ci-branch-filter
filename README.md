@@ -26,7 +26,7 @@ CI Trigger Congigurations
 
 |CI|PR Branch Filter|PR Branch|Draft PR|Skip push/pr|Auto Cancel|Config|
 |:--|:--|:--|:--|:--|:--|:--|
-|AppVeyor|-|BASE||[:ballot_box_with_check:](https://www.appveyor.com/docs/how-to/filtering-commits/)||YAML|
+|[AppVeyor][]|-|BASE||[:ballot_box_with_check:](https://www.appveyor.com/docs/how-to/filtering-commits/)||YAML|
 |[Azure Pipelines](https://docs.microsoft.com/ja-jp/azure/devops/pipelines/repos/github?view=azure-devops&tabs=yaml#branches)|:ballot_box_with_check:|[:ballot_box_with_check:: BASE](https://docs.microsoft.com/ja-jp/azure/devops/pipelines/repos/github?view=azure-devops&tabs=yaml#pr-triggers)|[default: true](https://docs.microsoft.com/ja-jp/azure/devops/pipelines/repos/github?view=azure-devops&tabs=yaml#draft-pr-validation)||[:ballot_box_with_check:](https://docs.microsoft.com/en-us/azure/devops/pipelines/repos/github?view=azure-devops&tabs=yaml#multiple-pr-updates)|[GUI](https://docs.microsoft.com/en-us/azure/devops/pipelines/troubleshooting/troubleshooting?view=azure-devops#overridden-yaml-trigger-setting),YAML|
 
 #### Other
@@ -92,7 +92,7 @@ BASE: XXX
 |[Azure Pipelines](https://docs.microsoft.com/ja-jp/azure/devops/pipelines/repos/github?view=azure-devops&tabs=yaml#paths)|:ballot_box_with_check:|YAML|
 |[Bitrise](https://devcenter.bitrise.io/builds/selective_builds/)|:ballot_box_with_check:|GUI|
 |[Buddy][]||||
-|[CircleCI][]|-|-|
+|[CircleCI](https://discuss.circleci.com/t/setup-workflows-open-preview/39516)|OpenPreview|YAML|
 |[Cirrus CI](https://cirrus-ci.org/guide/writing-tasks/#supported-functions)|:ballot_box_with_check:|YAML|
 |[Codefresh](https://codefresh.io/docs/docs/configure-ci-cd-pipeline/triggers/git-triggers/)|:ballot_box_with_check:|GUI|
 |[CodeShip][]|-|-|

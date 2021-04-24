@@ -1,13 +1,25 @@
-version: 2
-jobs:
-  build:
-    docker:
-      - image: circleci/buildpack-deps:cosmic-browsers
-    steps:
-      - checkout
-      - run:
-          name: Greeting
-          command: echo Hello, world.
-      - run:
-          name: Print the Current Time
-          command: date
+version: '2.1'
+# Enable the Setup Workflows setting to true (it is under “Advanced” in the project settings)
+setup: true
+
+orbs:
+  path-filtering: circleci/path-filtering@0.0.1
+
+workflows:
+  generate-config:
+    jobs:
+      - path-filtering/filter:
+          base-revision: master
+          config-path: .circleci/path-filtered-config1.yml
+          mapping: |
+            .circleci/.* build-pipeline true
+            README.md build-docs true
+
+      # https://twitter.com/srz_zumix/status/1385426925531762691
+      # {"message":"Pipeline is not in setup state."}
+      # - path-filtering/filter:
+      #     base-revision: master
+      #     config-path: .circleci/path-filtered-config2.yml
+      #     mapping: |
+      #       .circleci/.* build-pipeline true
+      #       README.md build-docs true
