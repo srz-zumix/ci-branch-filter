@@ -22,7 +22,8 @@ jobs:
             echo  Hello, world 2.
             echo "build-docs is << pipeline.parameters.build-docs >>"
             echo "build-pipeline is << pipeline.parameters.build-pipeline >>"
-      - run: echo \<<# parameters.build-pipeline >> PIPELINE \<</ parameters.all >> \<<# parameters.build-docs >> README \<</ parameters.all >>
+            <<# pipeline.parameters.build-pipeline >> echo PIPELINE <</ pipeline.parameters.build-pipeline >>
+            <<# pipeline.parameters.build-docs >> echo README <</ pipeline.parameters.build-docs >>
       - when:
           condition:
             when: << pipeline.parameters.build-docs >>
