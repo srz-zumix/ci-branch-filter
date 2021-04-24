@@ -33,7 +33,7 @@ CI Trigger Congigurations
 
 |CI|Tags|Cron|Config|
 |:--|:--|:--|:--|
-|AppVeyor|[skip_tags](https://www.appveyor.com/docs/branches/#build-on-tags-github-bitbucket-gitlab-gitea)|[GUI only](https://www.appveyor.com/docs/build-configuration/#scheduled-builds)|YAML|
+|[AppVeyor][]|[skip_tags](https://www.appveyor.com/docs/branches/#build-on-tags-github-bitbucket-gitlab-gitea)|[GUI only](https://www.appveyor.com/docs/build-configuration/#scheduled-builds)|YAML|
 |Azure Pipelines|[:ballot_box_with_check:](https://docs.microsoft.com/ja-jp/azure/devops/pipelines/repos/github?view=azure-devops&tabs=yaml#tags)|[:ballot_box_with_check:](https://docs.microsoft.com/ja-jp/azure/devops/pipelines/process/scheduled-triggers?view=azure-devops&tabs=yaml)|[GUI](https://docs.microsoft.com/en-us/azure/devops/pipelines/troubleshooting/troubleshooting?view=azure-devops#overridden-yaml-trigger-setting),YAML|
 
 ### Branch
